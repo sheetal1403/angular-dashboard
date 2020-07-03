@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HighchartsChartModule } from 'highcharts-angular';
 import { DefaultModule } from './layouts/default/default.module';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 
 
@@ -19,7 +20,8 @@ import { DefaultModule } from './layouts/default/default.module';
     AppRoutingModule,
     BrowserAnimationsModule,
     HighchartsChartModule,
-    DefaultModule
+    DefaultModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
